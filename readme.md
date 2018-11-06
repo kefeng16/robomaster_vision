@@ -65,8 +65,15 @@ bool patchArmaFom_model_vector(RotatedRect *left, RotatedRect *right, Mat binayI
 
 将上一步解算的角度发送给stm32控制云台。*注意云台控制需要进行滤波*。
 
+> 若上一次检测到，则该次在上一次附近区域进行检测，以达到追踪。
 ### 检测效果
 
 来自于视频截图
 [![34F939D1-BACB-4F46-9273-DC8CA5F0B6C2.pn](https://i.loli.net/2018/11/06/5be18a353921b.png)](https://i.loli.net/2018/11/06/5be18a353921b.png)
 [![A2744823-903D-44F0-AE5C-191EEDFB9F32.png](https://i.loli.net/2018/11/06/5be18a35ec99e.png)](https://i.loli.net/2018/11/06/5be18a35ec99e.png)
+
+### TODO
++ 采用机器学习的方式进行检测
++ 采用更高级的追踪器进行追踪如KCF
++ 角度结算精度提高
++ 提高侧面的检测成功率
