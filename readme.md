@@ -10,6 +10,11 @@
 4. 通过决策，选出最佳目标（若存在多个候选目标）
 5. 对目标进行追踪
 6. 角度解算发送给stm32：Yaw + Pitch
+### 环境需要
+
++ opencv3.4.1
++ cmake 
++ gcc/g++
 
 ### 思路
 ####  1.首先提取发光的灯条，再狠根据限定条件剔除一些发光的轮廓
@@ -77,5 +82,5 @@ bool patchArmaFom_model_vector(RotatedRect *left, RotatedRect *right, Mat binayI
 ### 8.TODO
 + 采用机器学习的方式进行检测
 + 采用更高级的追踪器进行追踪如KCF
-+ 角度解算精度有待提高提高
++ 角度解算精度有待提高
 + 提高侧面的检测成功率
