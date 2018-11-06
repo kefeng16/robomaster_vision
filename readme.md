@@ -77,5 +77,5 @@ bool patchArmaFom_model_vector(RotatedRect *left, RotatedRect *right, Mat binayI
 ### 8.TODO
 + 采用机器学习的方式进行检测
 + 采用更高级的追踪器进行追踪如KCF
-+ 角度结算精度提高
++ 角度解算精度有待提高提高
 + 提高侧面的检测成功率
