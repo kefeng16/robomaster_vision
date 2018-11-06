@@ -15,7 +15,8 @@
 > 首先提取发光的灯条，再狠根据限定条件剔除一些发光的轮廓
 + 函数原型
 ```c
-    Mat findContourInEnemyColor(Mat *frame, color col, vector<RotatedRect> *rotateRects, vector<vector<Point>> *points)
+    Mat findContourInEnemyColor(Mat *frame, color col, 
+    vector<RotatedRect> *rotateRects, vector<vector<Point>> *points)
 ```
 把相机的曝光值调的尽量低一些。三颜色通道分离，取绿色与目标颜色两个通道。
 
