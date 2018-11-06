@@ -1,0 +1,3 @@
+/home/kk/code/aush/build/CMakeFiles/rebuild_cache.dir
+/home/kk/code/aush/build/CMakeFiles/aush.dir
+/home/kk/code/aush/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,17 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/kk/code/aush/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7437c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7437c.dir/build.make CMakeFiles/cmTC_7437c.dir/build
+make[1]: Entering directory '/home/kk/code/aush/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7437c.dir/feature_tests.c.o
+/usr/bin/c99-gcc   -std=c11 -o CMakeFiles/cmTC_7437c.dir/feature_tests.c.o   -c /home/kk/code/aush/build/CMakeFiles/feature_tests.c
+c99-gcc called with non ISO C99 option -std=c11
+CMakeFiles/cmTC_7437c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7437c.dir/feature_tests.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7437c.dir/feature_tests.c.o] Error 1
+make[1]: Leaving directory '/home/kk/code/aush/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7437c/fast' failed
+make: *** [cmTC_7437c/fast] Error 2
+
+
+

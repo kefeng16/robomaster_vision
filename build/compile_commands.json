@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/kk/code/aush/build",
+  "command": "/usr/bin/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/aush.dir/angslu.cpp.o -c /home/kk/code/aush/angslu.cpp",
+  "file": "/home/kk/code/aush/angslu.cpp"
+},
+{
+  "directory": "/home/kk/code/aush/build",
+  "command": "/usr/bin/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/aush.dir/imgprdo.cpp.o -c /home/kk/code/aush/imgprdo.cpp",
+  "file": "/home/kk/code/aush/imgprdo.cpp"
+},
+{
+  "directory": "/home/kk/code/aush/build",
+  "command": "/usr/bin/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/aush.dir/main.cpp.o -c /home/kk/code/aush/main.cpp",
+  "file": "/home/kk/code/aush/main.cpp"
+},
+{
+  "directory": "/home/kk/code/aush/build",
+  "command": "/usr/bin/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/aush.dir/serial.cpp.o -c /home/kk/code/aush/serial.cpp",
+  "file": "/home/kk/code/aush/serial.cpp"
+}
+]
